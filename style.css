@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #011627;
+    height: 9vh;
+    color: white;
+}
+
+nav>div {
+    display: grid;
+    justify-content: center;
+}
+
+nav>div>div {
+    width: 50vh;
+}
+
+nav div ul,
+ul button {
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: baseline;
+}
+
+ul li button {
+    outline: none;
+    border: none;
+}
+
+ul li button:focus {
+    outline: none;
+    border: none;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+}
+
+.vl {
+    color: #a5a5a5;
+    font-size: 1.2em;
+}
+
+.flag {
+    height: 1.6vh;
+    width: auto;
+    align-self: center;
+    margin-right: 3%;
+}
+
+.userStuff {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+
+.userStuff p {
+    margin: 0;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("./logo.png");
+    height: 8vh;
+    width: 8vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2ec4b6;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #2ec4b6;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: #2ec4b6;
+}
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+main {
+    width: 100vw;
+    height: 91vh;
+    overflow: auto;
+}
+
+main::-webkit-scrollbar {
+    width: 18px;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #011627;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background-color: #010a13;
+}

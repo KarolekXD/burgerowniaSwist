@@ -1,0 +1,24 @@
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+main div {
+    background-color: rgba(240, 248, 255, 0.452);
+    width: 70%;
+    height: 50%;
+    border: 1px white solid;
+    border-radius: 30px;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+main div p {
+    font-size: 1.3em;
+}

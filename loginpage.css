@@ -1,0 +1,62 @@
+main {
+    display: grid;
+}
+
+main > div {
+    width: 30%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 30px;
+    border: 1px white solid;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.buttons button {
+    width: 30%;
+    background-color: rgba(238, 54, 54, 0.315);
+    border: 1px black solid;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+main div img {
+    height: 80%;
+    width: auto;
+    justify-self: center;
+}
+
+label {
+    margin-bottom: 0;
+    margin-top: 2%
+}
+
+.credentials{
+    display: grid;
+    gap: 6%;
+    width: 100%;
+}
+
+.credentials input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.438);
+    border: 1px white solid;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.credentials input:focus {
+    outline: 0;
+}
